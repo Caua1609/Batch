@@ -59,3 +59,24 @@ CD: Altera o diretório de trabalho.
 
 Os scripts Batch são uma forma poderosa de automatizar tarefas no Windows. Embora o Batch não seja tão popular quanto outras linguagens de script, ele continua sendo uma ferramenta valiosa para administradores de sistemas e usuários avançados. Com os comandos descritos neste guia, você pode começar a criar scripts para realizar tarefas como backups, movimentação de arquivos, limpeza de sistemas e muito mais.
 
+
+***Comandos Utilizados***
+
+****Mkdir****:
+O comando mkdir cria um ou mais diretórios novos especificados pelo parâmetro Directory . Cada novo diretório contém as entradas padrão .
+
+****Cd****:
+O comando cd define o diretório de trabalho atual de um processo. O usuário deve ter permissão de execução (search) no diretório especificado.
+
+****Echo****:
+O comando echo é usado em sistemas operacionais baseados em Unix (como Linux e macOS) e também no Windows, para exibir mensagens no terminal ou console. Ele também pode ser usado para redirecionar texto ou variáveis para arquivos ou outros comandos.
+
+****Del****:
+O comando del é utilizado no Windows para excluir arquivos. No Linux e macOS, o comando equivalente seria o rm. Vou te mostrar como funciona em ambas as plataformas
+
+****Cd..****:
+O comando cd.. é utilizado para voltar um nível no diretório atual, ou seja, ele te leva para o diretório pai do diretório em que você está.
+No entanto, há um pequeno detalhe: o correto é usar o comando cd .. (com um espaço entre cd e ..), e não cd...
+
+****Rmdir****:
+O comando rmdir é usado para remover diretórios vazios. Ele está disponível tanto no Windows quanto no Linux/macOS, e a sua principal função é excluir diretórios, mas apenas se estes estiverem vazios.
